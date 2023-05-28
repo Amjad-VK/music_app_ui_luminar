@@ -1,0 +1,37 @@
+GridView.count(
+                  primary: false,
+                  padding: const EdgeInsets.all(20),
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  crossAxisCount: 2,
+                  children: <Widget>[
+                    Container(
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: AssetImage('assets/images/portrait.jpg'))),
+                      padding: const EdgeInsets.all(8),
+                      // color: Colors.teal[200],
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(right: 110, top: 9),
+                            child: Icon(
+                              Icons.play_circle_fill,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(right: 58, top: 100),
+                            child: const Text(
+                              'Rap Gangs',
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    
+                  ],
+                ),
