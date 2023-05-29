@@ -3,11 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:music_app_ui/page2.dart';
 import 'package:music_app_ui/page3.dart';
+import 'package:music_app_ui/page3_a.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: mu_3(),
+    home: playerui(),
   ));
 }
 
